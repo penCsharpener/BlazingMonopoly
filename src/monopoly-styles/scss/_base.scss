@@ -1,0 +1,44 @@
+// COLOR VARIABLES
+$color-primary: #8BC34A;
+$color-primary-dark: #669036;
+
+$color-secondary: #FF5722;
+
+$color-grey-light-1: #CCC;
+$color-grey-light-2: #AAA;
+
+$color-grey-dark-1: #808080;
+$color-grey-dark-2: #424242;
+
+$app-max-width: 30rem;
+
+// FONT VARIABLES
+$font-primary: 'Roboto', sans-serif;
+// $font-display: '', sans-serif;
+
+// RESPONSIVE BREAKPOINTS
+$bp-lx: 75em; // 1200px divided by 16 pixel which is browser default
+$bp-l: 62.5em; // 1000px
+$bp-m: 50em; // 800px
+$bp-s: 37.5em; // 600px
+
+
+a:hover, .btn-link:hover {
+    text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+}
+
+
